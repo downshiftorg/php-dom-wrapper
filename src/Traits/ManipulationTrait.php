@@ -72,7 +72,7 @@ trait ManipulationTrait
      *
      * @return NodeList
      */
-    protected function inputAsNodeList($input) {
+    public function inputAsNodeList($input) {
         $nodes = $this->inputPrepareAsTraversable($input);
 
         $newNodes = $this->newNodeList();
